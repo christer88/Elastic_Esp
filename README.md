@@ -20,6 +20,14 @@ tyczy się to Elasticsearch, Kibana i Filebeat - powinny być w tej samej wersji
 Przed zmianą należy sprawdzić czy wszyskie te programy są dostępne w tej samej
 wersji.
 
+## INSTALL_ZEEK.SH
+W czasie instalacji uruchomi się cli zeek-a, wówczas należy wpisać kolejno:
+- install
+- start
+- deploy
+- stop
+- exit
+
 ## INSTALL_ARKIME.SH
 **WAŻNE!**
 Przy instalacji ARKIME przy pytaniu w którym należy podać adres elasticsearch 
