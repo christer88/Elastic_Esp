@@ -1,0 +1,98 @@
+# Module: zeek
+# Docs: https://www.elastic.co/guide/en/beats/filebeat/8.6/filebeat-module-zeek.html
+
+- module: zeek
+  capture_loss:
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/capture_loss.log"]
+  connection:
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/conn.log"]
+  dce_rpc:
+    enabled: false
+  dhcp:
+    enabled: false
+  dnp3:
+    enabled: false
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/conn.log"]
+  dns:
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/dns.log"]
+  dpd:
+    enabled: false
+  files:
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/files.log"]
+  ftp:
+    enabled: false
+  http:
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/http.log"]
+  intel:
+    enabled: false
+  irc:
+    enabled: false
+  kerberos:
+    enabled: false
+  modbus:
+    enabled: false
+  mysql:
+    enabled: false
+  notice:
+    enabled: false
+    var.paths: ["/opt/zeek/logs/current/notice.log"]
+  ntp:
+    enabled: false
+  ntlm:
+    enabled: false
+  ocsp:
+    enabled: false
+  pe:
+    enabled: false
+  radius:
+    enabled: false
+  rdp:
+    enabled: false
+  rfb:
+    enabled: false
+  signature:
+    enabled: false
+  sip:
+    enabled: false
+  smb_cmd:
+    enabled: false
+  smb_files:
+    enabled: false
+  smb_mapping:
+    enabled: false
+  smtp:
+    enabled: false
+  snmp:
+    enabled: false
+  socks:
+    enabled: false
+  ssh:
+    enabled: false
+  ssl:
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/ssl.log"]
+  stats:
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/stats.log"]
+  syslog:
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/syslog.log"]
+  traceroute:
+    enabled: false
+  tunnel:
+    enabled: false
+  weird:
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/weird.log"]
+  x509:
+    enabled: false
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths: []
