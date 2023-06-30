@@ -1,10 +1,10 @@
-# Instalator Elasticsearch, Kibana, Filbeat, Suricata, Zeek, Arkime
+# Instalator Elasticsearch, Kibana, Filebeat, Suricata, Zeek, Arkime
 
 ## ABOUT
 Skrypt służy do instalacji kolejno:
 - Elasticsearch
 - Kibana
-- Filbeat
+- Filebeat
 - Suricata
 - Zeek
 - Arkime
@@ -16,7 +16,7 @@ każdego pliku są przypisane zmienne potrzebne do poprawnego jego działania.
 
 ## INSTALL.SH
 Przed uruchomieniem należy zmienić wersję oprogramowania która będzie installowana,
-tyczy się to Elasticsearch, Kibana i Filbeat - powinny być w tej samej wersji. 
+tyczy się to Elasticsearch, Kibana i Filebeat - powinny być w tej samej wersji. 
 Przed zmianą należy sprawdzić czy wszyskie te programy są dostępne w tej samej
 wersji.
 
