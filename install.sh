@@ -73,7 +73,7 @@ SCRIPTS=(   "./get_requirements.sh $VERSION"
             "./install_suricata.sh $SERVER_ADDRESS $MASK $LISTENING_INTERFACE"
             "./install_zeek.sh $SERVER_ADDRESS $LISTENING_PORT"
             "./install_arkime.sh $ELASTIC_USERNAME $ELASTIC_PASSWORD $SERVER_ADDRESS"
-	          "./clean.sh" $VERSION
+	          "./clean.sh $VERSION"
 )
 
 TITLES=(    "POBIERAM POTRZEBNE ZASOBY"

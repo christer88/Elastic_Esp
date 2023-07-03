@@ -24,6 +24,7 @@ if ! ls /etc/elasticsearch/ | grep -q elasticsearch.yml; then
   exit 1;
 fi
 
+sudo sed -i "s|#node.name: node-1|node.name: node-1" /etc/elasticsearch/elasticsearch.yml
 sudo sed -i "s|#network.host: 192.168.0.1|network.host: $SERVER_ADDRESS|" /etc/elasticsearch/elasticsearch.yml
 sudo sed -i "s|#http.port: 9200|http.port: 9200|" /etc/elasticsearch/elasticsearch.yml
 sudo sed -i "s|#discovery.seed_hosts: \[\"host1\", \"host2\"\]|discovery.seed_hosts: \[\"host1\"\]\ndiscovery.type: single-node|" /etc/elasticsearch/elasticsearch.yml
