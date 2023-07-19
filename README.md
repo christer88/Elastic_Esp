@@ -17,9 +17,9 @@ każdego pliku są przypisane zmienne potrzebne do poprawnego jego działania.
 ## INSTALL.SH
 Skrypt należy uruchomić jako root!!!!
 
-_sudo su -
-chmod u+x install.sh
-./install.sh_
+_sudo su -_
+_chmod u+x install.sh_
+_./install.sh_
 
 Przed uruchomieniem należy zmienić wersję oprogramowania która będzie instalowana 
 (może też zostać ta którą podałem, sprawdzona i działa), tyczy się to Elasticsearch, 
