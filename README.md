@@ -89,5 +89,5 @@ który lokalizuje pewne dane do podmiany.
 
 ### DEBUG
 - _/opt/arkime/etc/config.ini_ - plik konfiguracyjny
-- _systemctl status arkimeviewer arkimecapture
+- _systemctl status arkimeviewer arkimecapture_
 
