@@ -33,7 +33,7 @@ wszyskie te programy są dostępne w tej samej wersji.
 
 ### DEBUG
 - _/etc/elasticsearch/elasticsearch.yml_ - plik konfiguracyjny
-- _systemctl status elasticsearch
+- _systemctl status elasticsearch_
 - _/var/log/elastic_ - logi elasticsearcha
 
 ## INSTALL_KIBANA.SH
