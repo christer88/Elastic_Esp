@@ -4,7 +4,7 @@ SERVER_ADDRESS=$3
 
 
 if ! apt list --installed 2>/dev/null | grep -q arkime;then
-        sudo apt install ./arkime_4.1.0-1_amd64.deb
+        sudo apt -y install ./arkime_4.1.0-1_amd64.deb
 
         if ! apt list --installed | grep -q arkime;then
             echo Błąd przy installacji Arkime.

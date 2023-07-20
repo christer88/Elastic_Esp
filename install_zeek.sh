@@ -6,7 +6,7 @@ if ! apt list --installed 2>/dev/null | grep -q zeek; then
         curl -fsSL https://download.opensuse.org/repositories/security:zeek/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/security_zeek.gpg > /dev/null
 
         sudo apt update
-        sudo apt install zeek-lts
+        sudo apt -y install zeek-lts
 
         if ! apt list --installed 2>/dev/null | grep -q zeek; then
             echo Błąd przy installacji Zeek.

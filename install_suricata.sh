@@ -4,7 +4,7 @@ LISTENING_INTERFACE=$3
 
 if ! apt list --installed 2>/dev/null | grep -q suricata; then
     sudo add-apt-repository ppa:oisf/suricata-stable
-    sudo apt install suricata
+    sudo apt -y install suricata
 
     if ! apt list --installed 2>/dev/null | grep -q suricata; then
         echo Błąd instalacji Suricata!
