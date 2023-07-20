@@ -71,7 +71,7 @@ SCRIPTS=(   "./get_requirements.sh $VERSION"
             "./install_kibana.sh $VERSION $SERVER_ADDRESS $KIBANA_USERNAME $KIBANA_PASSWORD" 
             "./install_filebeat.sh $VERSION $SERVER_ADDRESS $ELASTIC_USERNAME $ELASTIC_PASSWORD"
             "./install_suricata.sh $SERVER_ADDRESS $MASK $LISTENING_INTERFACE"
-            "./install_zeek.sh $SERVER_ADDRESS $LISTENING_PORT"
+            "./install_zeek.sh $SERVER_ADDRESS $LISTENING_INTERFACE"
             "./install_arkime.sh $ELASTIC_USERNAME $ELASTIC_PASSWORD $SERVER_ADDRESS"
 	          "./clean.sh $VERSION"
 )
