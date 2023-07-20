@@ -14,10 +14,6 @@ podając przy uruchomieniu wymagane argumenty dla każdego skryptu. Potrzebne
 argumenty można sprawdzić wyświetlając zawartość skryptu. W pierwszych linijkach 
 każdego pliku są przypisane zmienne potrzebne do poprawnego jego działania.
 
-## GET_REQUIREMENTS.SH
-Linki w skrypcie dla Arkime jest podany dla Ubuntu 22.04 - jeżeli skrypt jest 
-uruchamiany na innym systemi należy podmienić link z którego będzie pobierana instalacja.
-
 ## INSTALL.SH
 Skrypt należy uruchomić jako root i należy nadać mu prawa do wykonywania, można 
 to zrobić przykładowo tak jak poniżej:
@@ -30,6 +26,10 @@ Przed uruchomieniem należy zmienić wersję oprogramowania która będzie insta
 (może też zostać tą którą podałem, sprawdzona i działa), tyczy się to Elasticsearch, 
 Kibana i Filebeat - powinny być w tej samej wersji. Przed zmianą należy sprawdzić czy 
 wszyskie te programy są dostępne w tej samej wersji.
+
+## GET_REQUIREMENTS.SH
+Linki w skrypcie dla Arkime jest podany dla Ubuntu 22.04 - jeżeli skrypt jest 
+uruchamiany na innym systemie należy podmienić link z którego będzie pobierana instalacja.
 
 ## INSTALL_ELASTIC.SH
 
