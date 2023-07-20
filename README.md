@@ -28,7 +28,7 @@ Kibana i Filebeat - powinny być w tej samej wersji. Przed zmianą należy spraw
 wszyskie te programy są dostępne w tej samej wersji.
 
 ## GET_REQUIREMENTS.SH
-Linki w skrypcie dla Arkime jest podany dla Ubuntu 22.04 - jeżeli skrypt jest 
+Link w skrypcie dla Arkime jest podany dla Ubuntu 22.04 - jeżeli skrypt jest 
 uruchamiany na innym systemie należy podmienić link z którego będzie pobierana instalacja.
 
 ## INSTALL_ELASTIC.SH
@@ -84,7 +84,7 @@ W czasie instalacji uruchomi się cli zeek-a, wówczas należy wpisać kolejno:
 ### **WAŻNE!**
 Przy instalacji ARKIME przy pytaniu w którym należy podać adres elasticsearch 
 należy podać sam adres np. jeżeli adres na którym działa elasticsearch 
-to _https://192.168.1.1:9200_, to podajemy wtedy tylko 192.168.1.1_. 
+to _https://192.168.1.1:9200_, to podajemy wtedy tylko _192.168.1.1_. 
 Nie ma to znaczenia dla późniejszego działania programu, ponieważ dane zostaną 
 podmienione po instalacji arkime do końca – jednakże są to dane ważne dla skryptu, 
 który lokalizuje pewne dane do podmiany.
