@@ -14,6 +14,10 @@ podając przy uruchomieniu wymagane argumenty dla każdego skryptu. Potrzebne
 argumenty można sprawdzić wyświetlając zawartość skryptu. W pierwszych linijkach 
 każdego pliku są przypisane zmienne potrzebne do poprawnego jego działania.
 
+## GET_REQUIREMENTS.SH
+Linki w skrypcie dla Arkime jest podany dla Ubuntu 22.04 - jeżeli skrypt jest 
+uruchamiany na innym systemi należy podmienić link z którego będzie pobierana instalacja.
+
 ## INSTALL.SH
 Skrypt należy uruchomić jako root i należy nadać mu prawa do wykonywania, można 
 to zrobić przykładowo tak jak poniżej:
