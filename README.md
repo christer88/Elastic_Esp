@@ -67,12 +67,6 @@ uruchamiany na innym systemie należy podmienić link z którego będzie pobiera
 - _/var/log/suricata/suricata.log_ - logi suricaty (warto zastoswać z _tail -f_)
 
 ## INSTALL_ZEEK.SH
-W czasie instalacji uruchomi się cli zeek-a, wówczas należy wpisać kolejno:
-- install
-- start
-- deploy
-- stop
-- exit
 
 ### [HELP](https://docs.zeek.org/en/master/quickstart.html)
 
