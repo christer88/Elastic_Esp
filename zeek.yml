@@ -61,7 +61,8 @@
   sip:
     enabled: false
   smb_cmd:
-    enabled: false
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/smb_cmd.log"]
   smb_files:
     enabled: false
   smb_mapping:
@@ -73,7 +74,8 @@
   socks:
     enabled: false
   ssh:
-    enabled: false
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/ssh.log"]
   ssl:
     enabled: true
     var.paths: ["/opt/zeek/logs/current/ssl.log"]
@@ -84,7 +86,8 @@
     enabled: true
     var.paths: ["/opt/zeek/logs/current/syslog.log"]
   traceroute:
-    enabled: false
+    enabled: true
+    var.paths: ["/opt/zeek/logs/current/traceroute.log"]
   tunnel:
     enabled: false
   weird:

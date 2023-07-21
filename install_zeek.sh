@@ -21,15 +21,9 @@ fi
 echo Konfiguruje.
 sudo sed -i "s|host=localhost|host=$SERVER_ADDRESS|" /opt/zeek/etc/node.cfg
 sudo sed -i "s|interface=eth0|interface=$LISTENING_INTERFACE|" /opt/zeek/etc/node.cfg
-echo -------------------------------------------------------------
-echo wprowadzić komendy w kolejności jak poniżej:
-echo install
-echo start
-echo deploy
-echo stop
-echo exit
-read -p 'Po włączeniu się nowego CLI należy podać kolejno komendy powyżej, naciśnij teraz [ENTER].' temp
-/opt/zeek/bin/zeekctl
-sudo cp zeek.yml /etc/filebeat/modules.d/
+sudo /opt/zeek/bin/zeekctl install
+sudo /opt/zeek/bin/zeekctl start
+sudo /opt/zeek/bin/zeekctl deploy
+sudo /opt/zeek/bin/zeekctl stop
 sudo filebeat setup -e
 sudo systemctl restart filebeat.service
