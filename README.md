@@ -65,13 +65,6 @@ El enlace en este script para Arkime está configurado para Ubuntu 22.04. Si est
 
 ## INSTALL_ZEEK.SH
 
-Durante la instalación de Zeek, se abrirá la línea de comandos de Zeek. En ese momento, debes ejecutar los siguientes comandos en secuencia:
-- install
-- start
-- deploy
-- stop
-- exit
-
 ### [AYUDA](https://docs.zeek.org/en/master/quickstart.html)
 
 ### DEPURACIÓN
@@ -89,4 +82,4 @@ Cuando instales Arkime y se te pida la dirección de Elasticsearch, debes propor
 - _/opt/arkime/etc/config.ini_ - archivo de configuración
 - _systemctl status arkimeviewer arkimecapture_
 
-En resumen, este script es una guía completa para instalar y configurar un conjunto de herramientas para la monitorización de la red y análisis de registros en un servidor Ubuntu. Asegúrate de seguir las instrucciones detalladas y ajustar las versiones y configuraciones según sea necesario antes de ejecutarlo.
+
