@@ -1,6 +1,6 @@
 # Instalador para Elasticsearch, Kibana, Filebeat, Suricata, Zeek y Arkime
 
-Solo es una traduccion al español del los script desarrollados por ArkadiuszStanislawLega /Elastic - todos los reconociemtos para él
+Solo es una traducción al español del los script desarrollados por [ArkadiuszStanislawLega](https://github.com/ArkadiuszStanislawLega/Elastic)  - todos los reconociemtos para él
 
 ## ACERCA DE
 
